@@ -28,7 +28,13 @@ class Controller {
             case 'joao':
                 $this->showTelaJoao();
                 break;
-        }
+	    case 'Jonathan';
+	       $this->mostratelajonathan();
+            break;
+
+
+    }
+
     }
     
     private function showConteudoInicialView(){
@@ -46,7 +52,9 @@ class Controller {
     private function showTelaJoao(){
         include 'view/telaJoao.php';
     }
-    
+    private function mostratelajonathan(){
+	include 'view/telaJonathan.php';
+}
     
 }
 
